@@ -1,4 +1,4 @@
-# nuxt front-end dev starter
+# nuxt dev starter
 
 > My impressive Nuxt.js project
 
