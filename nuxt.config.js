@@ -44,8 +44,8 @@ export default {
         '@nuxtjs/font-awesome'
     ],
     axios: {
-        baseURL: 'http://nginx/api',
-        browserBaseURL: 'http://localhost/api'
+        baseURL: 'http://locahost:8000/api',
+        // browserBaseURL: 'http://localhost/api'
     },
     router: {
         // middleware: ['auth']
