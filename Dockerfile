@@ -1,8 +1,8 @@
-FROM node:12.4-alpine
+FROM node:10-alpine
 
 WORKDIR /app
 ENV HOST 0.0.0.0
-COPY ./package.json /app
-RUN yarn install
+COPY . .
+RUN yarn && yarn build
 
-CMD ["yarn", "dev"]
+CMD ["yarn", "start"]
